@@ -1,0 +1,42 @@
+nav{
+height: 80px;
+background-color: rgb(46, 42, 42);
+overflow: hidden;
+}
+nav p{
+    float: left;
+    color: yellow;
+    margin: 25px;
+    margin-left: 150px;
+    font-size: 25px;
+} 
+
+ul{
+    float: right;
+    margin-right: 150px;
+}
+ul li{
+    list-style-type: none;
+    float: left;
+    margin: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+section{
+    text-align: center;
+  
+}
+.card-items{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-item img{
+    width: 100px;
+    height: 100px;
+}
+.dis{
+    color: rgb(68, 63, 63);
+}
